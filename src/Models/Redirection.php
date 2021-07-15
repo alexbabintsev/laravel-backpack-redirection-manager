@@ -2,7 +2,7 @@
 
 namespace Novius\Backpack\RedirectionManager\Models;
 
-use Backpack\CRUD\CrudTrait;
+use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Database\Eloquent\Model;
 
 class Redirection extends Model

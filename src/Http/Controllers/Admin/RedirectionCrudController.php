@@ -2,7 +2,7 @@
 
 namespace Novius\Backpack\RedirectionManager\Http\Controllers\Admin;
 
-use Novius\Backpack\CRUD\Http\Controllers\CrudController;
+use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Novius\Backpack\RedirectionManager\Http\Requests\Admin\RedirectionRequest as StoreRequest;
 use Novius\Backpack\RedirectionManager\Http\Requests\Admin\RedirectionRequest as UpdateRequest;
 
