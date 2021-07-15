@@ -17,6 +17,6 @@ Route::group(
         'middleware' => ['web', 'admin'],
     ],
     function () {
-        CRUD::resource('redirection', 'RedirectionCrudController');
+        Route::crud('redirection', 'RedirectionCrudController');
     }
 );
